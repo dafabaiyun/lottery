@@ -43,7 +43,7 @@ module.exports = {
     cssSourceMap: true,
     proxyTable: {
       '/': {
-        target: "http://47.101.10.168/", //后端地址
+        target: "http://124.71.78.180:8080/", //后端地址
         changeOrigin: true, //允许跨域
         pathRewrite: { // 路径重写，
           '^/': '' // 替换target中的请求地址，也就是说以后你在请求http://xxxx/v2/XXXXX这个地址的时候直接写成/v2/XXXXX即可。

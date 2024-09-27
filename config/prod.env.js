@@ -8,5 +8,5 @@
 'use strict'
 module.exports = {
   NODE_ENV: '"production"',
-  API_ROOT: '"//47.101.10.168/lottery"'
+  API_ROOT: '"//124.71.78.180:8080/lottery"'
 }

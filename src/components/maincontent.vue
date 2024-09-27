@@ -213,10 +213,10 @@
             if(this.isiOS){
               this.opacity = 1
               $(".bg").eq(0).css({
-                "backgroundImage": 'url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/抽奖.jpg")',
+                "backgroundImage": 'url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/lottery.jpg")',
               })
               // let bg = document.getElementsByClassName("bg")[0];
-              // bg.style.backgroundImage = "https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/抽奖.jpg"
+              // bg.style.backgroundImage = "https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/lottery.jpg"
             }else{
               self.cloud();
             }
@@ -252,7 +252,7 @@
                     if(this.isiOS){
                       this.opacity = 1
                       $(".bg").eq(0).css({
-                        "backgroundImage": 'url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/抽奖.jpg")',
+                        "backgroundImage": 'url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/lottery.jpg")',
                       })
                     }else{
                       this.cloud();
@@ -285,7 +285,7 @@
         let img = new Image();
         let imgMark = new Image();
         img.src = "https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/img/main-center-med-1.png"
-        imgMark.src = 'https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/抽奖.jpg'
+        imgMark.src = 'https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/lottery.jpg'
         let maskX = (canvas.width - (70 + this.count)) / 2,
           maskY = (canvas.height - (40 + this.count)) / 2;
         imgMark.onload = (() => {
@@ -380,7 +380,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    /* background-image: url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/抽奖.jpg"); */
+    /* background-image: url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/lottery.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -392,7 +392,7 @@
     padding: 20px 20px 20px 20px;
     text-align: center;
     /* background-color: #f2e2c0; */
-    background-image: url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/地点框.png");
+    background-image: url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/point.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -441,7 +441,7 @@
     width: 100vw;
     height: 100vh;
     /* background-color:#dbcfc2; */
-    background-image: url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/手写板.jpg");
+    background-image: url("https://lottery-1302674052.cos-website.ap-guangzhou.myqcloud.com/static/write.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: #d7c9bc;
